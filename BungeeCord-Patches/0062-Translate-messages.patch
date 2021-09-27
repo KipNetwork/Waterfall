@@ -1,0 +1,30 @@
+From 5e3241b8a3a52e0063882e50209eb914fbd0b744 Mon Sep 17 00:00:00 2001
+From: Melvin Snijders <mail@melvinsnijders.nl>
+Date: Mon, 27 Sep 2021 14:51:57 +0200
+Subject: [PATCH] Translate messages
+
+
+diff --git a/proxy/src/main/resources/messages.properties b/proxy/src/main/resources/messages.properties
+index 0b7e74c9..5b0c5322 100644
+--- a/proxy/src/main/resources/messages.properties
++++ b/proxy/src/main/resources/messages.properties
+@@ -1,4 +1,4 @@
+-alert=\u00a78[\u00a74Alert\u00a78]\u00a7r 
++alert=\u00a76\u00a7lMededeling \u00a77\uF84D\u00a7f 
+ already_connected=\u00a7cYou are already connected to this server!
+ already_connected_proxy=\u00a7cYou are already connected to this proxy!
+ already_connecting=\u00a7cAlready connecting to this server!
+@@ -13,8 +13,8 @@ mojang_fail=Error occurred while contacting login servers, are they down?
+ no_permission=\u00a7cYou do not have permission to execute this command!
+ no_server=\u00a7cThe specified server does not exist.
+ no_server_permission=\u00a7cYou don''t have permission to access this server.
+-outdated_client=Outdated client! Please use {0}
+-outdated_server=Outdated server! I''m still on {0}
++outdated_client=\u00a76\u00a7lKipNetwork \u00a7rdraait op dit moment op versie \u00a7f{0}\u00a7r, update je client om te kunnen spelen.
++outdated_server=\u00a76\u00a7lKipNetwork \u00a7rdraait op dit moment op versie \u00a7f{0}\u00a7r, verander je versie om te kunnen spelen.
+ proxy_full=Server is full!
+ restart=[Proxy] Proxy restarting.
+ server_kick=[Kicked] 
+-- 
+2.30.1.windows.1
+
