@@ -1,16 +1,17 @@
-From 5e3241b8a3a52e0063882e50209eb914fbd0b744 Mon Sep 17 00:00:00 2001
+From 461722083028e34698c85bbd5fb6c4e44d7dd464 Mon Sep 17 00:00:00 2001
 From: Melvin Snijders <mail@melvinsnijders.nl>
 Date: Mon, 27 Sep 2021 14:51:57 +0200
 Subject: [PATCH] Translate messages
 
+Translate messages
 
 diff --git a/proxy/src/main/resources/messages.properties b/proxy/src/main/resources/messages.properties
-index 0b7e74c9..5b0c5322 100644
+index 0b7e74c9..84af7565 100644
 --- a/proxy/src/main/resources/messages.properties
 +++ b/proxy/src/main/resources/messages.properties
 @@ -1,4 +1,4 @@
 -alert=\u00a78[\u00a74Alert\u00a78]\u00a7r 
-+alert=\u00a76\u00a7lMededeling \u00a77\uF84D\u00a7f 
++alert=\u00a76\u00a7lMededeling \u00a77\u2192\u00a7f 
  already_connected=\u00a7cYou are already connected to this server!
  already_connected_proxy=\u00a7cYou are already connected to this proxy!
  already_connecting=\u00a7cAlready connecting to this server!
